@@ -41,7 +41,7 @@ int main(int argc,char *argv[])
 	}
 
 	while(1){
-		//5秒後にSIGALRMが発生
+		//10秒後にSIGALRMが発生
 		alarm(10);
 
 		//キーイベントの読み込み
