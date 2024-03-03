@@ -47,7 +47,7 @@ int main(int argc,char *argv[])
 
 		/*キーイベントの読み込み*/
 		if(read(fd1,&ev,sizeof(ev))==-1){
-			if(errno == EINTR) //データが使用可能になる前にキャッチされたシグナルによって割り込み
+			if(errno == EINTR) /*データが使用可能になる前にキャッチされたシグナルによって割り込み*/
 				continue;
 			sprintf(buf,"%s errno=%d :read()",argv[0],errno);
 			perror(buf);
