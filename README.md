@@ -20,4 +20,4 @@ SW1:赤LED SW2:緑LED SW3:黄LED
 1.開発マシンで「make」コマンド  
 2.開発マシンで「make install」コマンド  
 3.ターゲットボードで「./k14-4b」コマンド  
-4.終了はCTRL+D
+4.終了はCTRL+C  
